@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: $mont;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}

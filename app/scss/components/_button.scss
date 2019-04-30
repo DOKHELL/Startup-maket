@@ -1,0 +1,14 @@
+.default-button{
+    a{
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 16px;
+    padding: 11px 33px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &:hover{
+        color: #c0301c;
+        background-color: #fff;
+    }
+    }
+}
